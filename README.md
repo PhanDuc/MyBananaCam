@@ -25,7 +25,7 @@ Detect status of boxes in grocery store shelves.
   - Model: Mask RCNN
   - Configuration:
     - Epochs: 20
-    - Backbone: ResNet50    
+    - Backbone: ResNet101    
     - Number of Classes: 4 [empty, half-empty, full, obstacle]
    
 - [x] Inspect and report results (test set)
