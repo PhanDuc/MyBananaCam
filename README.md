@@ -6,8 +6,6 @@ The Progress Of My BananaCam Project
 Detect status of boxes in grocery store shelves.
 
 ## Table of Contents
-- <a href='#demo'>Demo</a>
-- <a href='#visualization'>Visualization</a>
 - <a href='#goal'>Goal</a>
 - <a href='#log'>Log</a>
     - <a href='#2019-03-22-created-model-based'>2019-03-22: Created Model-Based</a>
