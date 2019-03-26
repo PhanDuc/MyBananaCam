@@ -81,11 +81,7 @@ Detect status of boxes in grocery store shelves.
         - [x] Create GIF of test set predictions
     - [x] Quantitatively: Average precision
         - **Train: 0.9091** (N: 329)
-        - **Test: 0.1672** (N: 80)
-        - **These results imply extreme overfitting, but the visual results show decent performance**.
-            - <img src="docs/20180215_190227_002190_gt_and_preds.jpg" width="50%">
-            - The predictions are in red and the ground truth is in green.                       
-
+        - **Test: 0.1672** (N: 80)          
 
 ## 2018-02-19: Understand the performance drop
 - [ ] Study the pipeline
