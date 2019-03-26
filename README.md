@@ -82,7 +82,12 @@ Detect status of boxes in grocery store shelves.
 - [x] Inspect and report results (test set)
     ...loading
       
-
+- [Processing] Training
+    - LEARNING_RATE = 0.0005
+    - LEARNING_MOMENTUM = 0.95    
+    - WEIGHT_DECAY = 0.0003
+    - Use: RPN_ANCHOR_SCALES = (16, 32, 64, 128, 256)
+    - Train from beginning of model
 
 ## Understand the performance 
 - [ ] Study the pipeline
