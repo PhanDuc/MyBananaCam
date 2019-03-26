@@ -1,8 +1,6 @@
 # MyBananaCam
 The Progress Of My BananaCam Project
 
-# void-detector
-
 Detect status of boxes in grocery store shelves.
 
 ## Table of Contents
