@@ -28,7 +28,7 @@ Detect status of boxes in grocery store shelves.
     - Backbone: ResNet101    
     - Number of Classes: 4 [empty, half-empty, full, obstacle]
    
-- [x] Inspect and report results (test set)
+- [x] Inspect and report results
     - Number of Images : 160
     - Calculate average precision (IoU threshold: 0.5):
         - - 0.5 is the [PASCAL VOC standard](http://homepages.inf.ed.ac.uk/ckiw/postscript/ijcv_voc09.pdf).
@@ -80,7 +80,38 @@ Detect status of boxes in grocery store shelves.
 ## 2019-03-26: Inspect model
 
 - [x] Inspect and report results (test set)
-    ...loading
+    - The Total Number Of Annotations Model Predicted:  1536
+    - Number of correct predicted for each classes
+        - empty: 82
+        - half-empty: 299
+        - full: 1155
+
+    - The Total Annotations Of Ground Truth: 3323
+        - full: 2331
+        - half-empty: 794
+        - empty: 176
+        - obstacle: 22
+
+    Confusion Matrix
+    
+            t/p          full      empty   obstacle half-empty 
+              full     1155.0        3.0        0.0      102.0 
+             empty       16.0       82.0        0.0       71.0 
+          obstacle        1.0        0.0        0.0        1.0 
+        half-empty      260.0       23.0        0.0      299.0 
+
+    Classification Report
+    
+                  precision    recall  f1-score   support
+
+           empty       0.76      0.49      0.59       169
+            full       0.81      0.92      0.86      1260
+      half-empty       0.63      0.51      0.57       582
+        obstacle       0.00      0.00      0.00         2
+
+       micro avg       0.76      0.76      0.76      2013
+       macro avg       0.55      0.48      0.50      2013
+      weighted avg     0.75      0.76      0.75      2013
       
 - [Processing] Training
     - LEARNING_RATE = 0.0005
