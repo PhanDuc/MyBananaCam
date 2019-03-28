@@ -136,7 +136,15 @@ Detect status of boxes in grocery store shelves.
     - WEIGHT_DECAY = 0.0005
     - Train "all" layers
     - GRADIENT_CLIP_NORM = 10 (the dault 5 cause NaN loss when training)
-
+- MobileNetV1
+    - BACKBONE = "mobilenet224v1"
+    - LEARNING_RATE = 0.0003
+    - LEARNING_MOMENTUM = 0.9    
+    - WEIGHT_DECAY = 0.000015
+    - weights= imagenet
+    - Total Epochs: 20
+        - Head : 5
+        - All: 20
 ## Understand the performance 
 - [ ] Study the pipeline
     - [x] Number of annotation in the Dataset
