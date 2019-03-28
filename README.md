@@ -135,6 +135,7 @@ Detect status of boxes in grocery store shelves.
     # Weight decay regularization
     - WEIGHT_DECAY = 0.0005
     - Train "all" layers
+    - GRADIENT_CLIP_NORM = 10 (the dault 5 cause NaN loss when training)
 
 ## Understand the performance 
 - [ ] Study the pipeline
