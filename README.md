@@ -134,6 +134,7 @@ Detect status of boxes in grocery store shelves.
     - LEARNING_MOMENTUM = 0.95
     # Weight decay regularization
     - WEIGHT_DECAY = 0.0005
+    - Train "all" layers
 
 ## Understand the performance 
 - [ ] Study the pipeline
