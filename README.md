@@ -120,6 +120,17 @@ Detect status of boxes in grocery store shelves.
     - Use: RPN_ANCHOR_SCALES = (16, 32, 64, 128, 256)
     - Train from beginning of model
 
+## 2019-03-27: Flask Building
+- Continue combine different modules:
+    - Login (done)
+    - Main page Display images from db (done)
+    - Get output from Mask RCNN then write it to db (processing)
+    - Connect with camera ()
+    - Sending email ()
+    
+## 2019-03-28: Flask Building + MobileNet
+
+
 ## Understand the performance 
 - [ ] Study the pipeline
     - [x] Number of annotation in the Dataset
